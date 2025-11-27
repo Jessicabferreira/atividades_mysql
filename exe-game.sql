@@ -24,6 +24,7 @@ VALUES ("Paladino", "Martelo", "Defesa e ataque sagrado");
 
 SELECT * FROM tb_classes;
 
+-- ID 2 ficou duplicado, por isso foi removido
 DELETE FROM tb_classes WHERE id_classe = 2;
 
 -- Criar segunda tabela
